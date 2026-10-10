@@ -32,7 +32,8 @@ body {
 }
 
 .header__link {
-    letter-spacing: 0;
+    font-size: 18px;
+    line-height: 100%;
 }
 
 .header__link_active {
@@ -61,8 +62,8 @@ body {
 }
 
 .address__item {
+    font-size: 18px;
     line-height: 24.3px;
-    letter-spacing: 0%;
 }
 
 /* end: header */
