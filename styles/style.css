@@ -68,10 +68,35 @@ body {
 
 /* end: header */
 
+/* start: cover */
+
 .cover {
     background-image: url('../images/cover.jpg');
+    background-size: cover;
     margin-bottom: 180px;
-    height: 757px;
+    min-height: 757px;
+}
+
+.cover__title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 114.9%;
+    letter-spacing: 30%;
+    text-transform: uppercase;
+    padding: 165px 50px 0px;
+    color: white;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .lots {
