@@ -75,13 +75,24 @@ body {
     background-size: cover;
     margin-bottom: 180px;
     min-height: 757px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgb(0 0 0/0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .cover__title {
     font-weight: 700;
     font-size: 100px;
-    line-height: 114.9%;
-    letter-spacing: 30%;
+    line-height: 135px;
     text-transform: uppercase;
     padding: 165px 50px 0px;
     color: white;
@@ -98,6 +109,45 @@ body {
 .text-right {
     text-align: right;
 }
+
+.letter-spacing-extended {
+    letter-spacing: 0.3em;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.cover__description {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 106px 50px 0px;
+    align-items: center;
+}
+
+.cover__description-text {
+    justify-self: start;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 20px;
+}
+
+.bet-button {
+    justify-self: end;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 256px;
+    height: 51px;
+}
+
+/* end: cover */
 
 .lots {
     margin: 0 auto 120px;
