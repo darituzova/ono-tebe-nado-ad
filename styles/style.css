@@ -240,11 +240,49 @@ body {
 
 /* end: lots */
 
+/* start: about */
+
 .about {
     margin: 0 auto 180px;
     min-height: 595px;
     min-width: 1052px;
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    padding: 0 24px;
 }
+
+.about__logo {
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 0;
+}
+
+.about__logo-image {
+    width: 142px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding-top: 136px;
+}
+
+.about__text {
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 100px;
+}
+/* end: about */
 
 .footer {
   margin-bottom: 0;
