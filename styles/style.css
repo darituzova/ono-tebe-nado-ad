@@ -31,12 +31,12 @@ body {
     list-style: none;
 }
 
-.header__link {
+.menu__link {
     font-size: 18px;
     line-height: 100%;
 }
 
-.header__link_active {
+.menu__link_active {
     text-decoration: none;
 }
 
@@ -285,7 +285,45 @@ body {
 
 /* end: about */
 
+/* start: footer */
+
 .footer {
   margin-bottom: 0;
   min-height: 180px;
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
 }
+
+.footer__address {
+    justify-self: start;
+}
+
+.footer__menu {
+    justify-self: center;
+}
+
+.footer__links-list {
+    list-style: none;
+    text-align: center;
+}
+
+.footer__social-list {
+    justify-self: end;
+    list-style: none;
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social-link {
+    list-style: none;
+}
+
+.footer__social-icon {
+    width: 48px;
+    display: block;
+}
+
+/* end: footer */
